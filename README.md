@@ -1,3 +1,4 @@
+![](https://github.com/sulavmhrzn/friends-quote-api/blob/main/static/images/friends.png)
 
 # Friends Quote API
 
