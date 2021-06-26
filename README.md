@@ -1,30 +1,32 @@
 
-# Project Title
+# Friends Quote API
 
-A brief description of what this project does and who it's for
+Get quotes from the famous tv series Friends.
 
 
 ## API Reference
 
-#### Get all items
+#### Get all quotes
 
 ```http
-  GET /api/items
+  GET /quotes
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
+#### Get a random quotes
 
 ```http
-  GET /api/items/${id}
+  GET /quotes/random
+```
+
+#### Get quote
+
+```http
+  GET /quotes/character/${character_name}
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| `character_name`      | `string` | **Required**. character name to fetch |
 
 
 ## Run Locally
