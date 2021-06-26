@@ -8,7 +8,7 @@
         "character": "Joey"
     },
     {
-        "quote": "Guys can fake it? Unbelievable! The one thing that’s ours!",
+        "quote": "Guys can fake it? Unbelievable! The one thing that\u2019s ours!",
         "character": "Monica"
     },
     {
@@ -70,5 +70,13 @@
     {
         "quote": "Look at me! I'm Chandler! Could I be wearing any more clothes?!",
         "character": "Joey"
+    },
+    {
+        "quote": "Oh, I wish I could, but I don\u2019t want to. ",
+        "character": "Phoebe"
+    },
+    {
+        "quote": "Unagi is a state of total awareness. Only by achieving true Unagi can you be prepared for any danger that may befall you.",
+        "character": "Ross"
     }
 ]
