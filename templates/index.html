@@ -10,7 +10,33 @@
 </head>
 
 <body>
-    <h1>Friends Quote API</h1>
+    <div class="container">
+        <!-- <h1>Friends Quote API</h1> -->
+        <div class="main-img">
+            <img src="{{url_for('static', path='/images/friends.png')}}" alt="">
+        </div>
+        <div class="github">
+            <a class="btn" href="https://github.com/sulavmhrzn/friends-quote-api">Github</a>
+        </div>
+        <div class="content">
+            <h1>Friends Quote API</h1>
+            <p>An api to fetch quotes from the famous tv series, Friends</p>
+            <div class="api">
+                <ol>
+                    <li class="lead"><strong>GET</strong> /quotes</li>
+                    Get all quotes <br><br>
+                    <li class="lead"><strong>GET</strong> /quotes/random</li>
+                    Get a random quote <br><br>
+                    <li class="lead"><strong>GET</strong> /quotes/character?name={character_name}</li>
+                    *<i>character_name</i>: string <br>
+                    Get quotes from a particular character
+                </ol>
+            </div>
+        </div>
+        <footer>
+            Made with &hearts; by Sulav Maharjan
+        </footer>
+    </div>
 </body>
 
 </html>

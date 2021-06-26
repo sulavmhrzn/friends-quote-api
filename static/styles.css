@@ -1,3 +1,31 @@
-h1 {
-    color: red;
+.container{
+    width: 70%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-img{
+    text-align: center;
+}
+
+.lead{
+    font-size: 30px;
+    background: #fabd0e;
+}
+
+.btn{
+    padding: 10px;
+    background: #00b4e8;
+    text-decoration: none;
+}
+
+.github{
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    
 }
