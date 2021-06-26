@@ -25,8 +25,3 @@ async def get_quote_from_character(character: str, response: Response):
         }
 
     return quotes
-
-    # return quotes or {
-    #     "status": "Not Found",
-    #     "message": f"Character with name {character} not found.",
-    # }
