@@ -21,7 +21,7 @@ Get quotes from the famous tv series Friends.
 #### Get quote
 
 ```http
-  GET /quotes/character/${character_name}
+  GET /quotes/character?name=${character_name}
 ```
 
 | Parameter | Type     | Description                       |
